@@ -23,7 +23,7 @@ a {
 ul a {
   text-decoration: none;
 }
-ul i {
+ul em {
   color: black;
   font-size: 1.3rem;
 }
@@ -107,7 +107,7 @@ ul i {
   color: rgba(0, 0, 0, 0.6);
   font: 400 1rem 'Padauk', sans-serif;
 }
-.time-eat i {
+.time-eat em {
   margin-left: 1rem;
   font-size: 1.4rem;
 }
@@ -146,9 +146,63 @@ ul i {
 }
 
 /*Categories*/
+.category h1 {
+  font: 700 3rem 'Padauk', sans-serif;
 
+  line-height: 3.6rem;
+  /* identical to box height */
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
 .infoProdut {
   margin-top: 10rem;
   display: flex;
   justify-content: space-between;
+}
+
+.viewAll {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  width: 12rem;
+  height: 3.75rem;
+  background: #e7fafe;
+  border-radius: 1rem;
+}
+
+.viewAll h2 {
+  color: #000000;
+  font: 600 1rem 'Padauk', sans-serif;
+
+  line-height: 1.18rem;
+  letter-spacing: -0.02em;
+}
+/*CARDS*/
+
+.cads {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardfood img {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.cardfood {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 11.25rem;
+  height: 9.5rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+  border-radius: 30px;
 }
