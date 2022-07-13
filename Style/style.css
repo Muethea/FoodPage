@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+#header {
+  align-content: center;
+}
+
+nav ul,
+a {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 3.75rem;
+}
+
+ul a {
+  text-decoration: none;
+}
+ul i {
+  color: black;
+  font-size: 1.3rem;
+}
+.logo p {
+  font: 700 1.9rem 'Lobster';
+}
+.logo span {
+  color: rgb(219, 110, 32);
+}
+
+.title {
+  color: black;
+  font: 400 1.3rem 'Padauk', sans-serif;
+}
+.menu {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.info-img {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-hr {
+  background: rgba(68, 68, 68, 0.1);
+}
+
+/*CARD */
+
+.card {
+  background: #e7fafe;
+  border-radius: 2rem;
+  height: 40rem;
+}
+
+.info {
+  margin-top: 4rem;
+}
+.card h1,
+.p1 {
+  margin-left: 3rem;
+}
+.card h1 {
+  letter-spacing: -0.04em;
+  width: 32rem;
+  font: 600 4rem 'Padauk', sans-serif;
+}
+
+.card .p1 {
+  color: rgba(0, 0, 0, 0.6);
+  width: 32rem;
+  font: 400 1rem 'Padauk', sans-serif;
+}
+
+/*time-eat*/
+.time-eat {
+  margin-top: 1.8rem;
+  margin-left: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+.card button {
+  gap: 2rem;
+  align-items: center;
+  display: flex;
+  border: none;
+  border-radius: 30rem;
+  width: 11rem;
+  height: 3.5rem;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.time-eat p {
+  color: rgba(0, 0, 0, 0.6);
+  font: 400 1rem 'Padauk', sans-serif;
+}
+.time-eat i {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+
+.user {
+  margin-left: 3rem;
+  margin-top: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user h2 {
+  font: 600 1rem 'Padauk', sans-serif;
+}
+.user-info {
+  display: flex;
+}
+.user img {
+  height: 3rem;
+  clip-path: circle();
+}
+
+.name-date {
+  margin-left: 1rem;
+}
+.name-date p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user .btnView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: black;
+}
+
+/*Categories*/
+
+.infoProdut {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
