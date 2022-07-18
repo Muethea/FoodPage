@@ -27,8 +27,8 @@ ul em {
   color: black;
   font-size: 1.3rem;
 }
-.logo p {
-  font: 700 1.9rem 'Lobster';
+.logo1 img {
+ width: 12rem;
 }
 .logo span {
   color: rgb(219, 110, 32);
@@ -57,7 +57,10 @@ ul em {
 .line-hr {
   background: rgba(68, 68, 68, 0.1);
 }
-
+/*SECTION*/
+section {
+  margin-top: 5rem;
+}
 /*CARD */
 
 .card {
@@ -66,6 +69,16 @@ ul em {
   height: 40rem;
 }
 
+.cads p {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  font: 600 1.8rem 'Padauk', sans-serif;
+}
 .info {
   margin-top: 4rem;
 }
@@ -205,4 +218,288 @@ ul em {
     rgba(0, 0, 0, 0.05) 100%
   );
   border-radius: 30px;
+}
+
+/*SECTION 2*/
+.section2 {
+  margin-top: 11.44rem;
+}
+.ifo-recips {
+  text-align: center;
+}
+
+.ifo-recips h1 {
+  font: 700 3rem 'Padauk', sans-serif;
+}
+
+.ifo-recips p {
+  font: 400 1rem 'Padauk', sans-serif;
+}
+
+/*Food Cards */
+.foodcolection1,
+.foodcolection2,
+.foodcolection3 {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.foodcard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 40px;
+  width: 25rem;
+  height: 27.125rem;
+  border-radius: 30px;
+
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+
+.foodcard img {
+  border-radius: 30px;
+  width: 23rem;
+  height: 16rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.food6 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #357355 0%, #1d483b 100%);
+}
+
+.foodcolection2 .food6 h1 {
+  text-align: center;
+  width: 10.75rem;
+  color: white;
+  font: 400 1.5rem 'Lobster', sans-serif;
+}
+.food6 img {
+  width: 19rem;
+  height: 16rem;
+}
+.foodcard h1 {
+  font: 600 1.5rem 'Padauk';
+  font-family: 'Inter';
+  line-height: 2rem;
+  /* or 133% */
+  margin-top: 1.5rem;
+  color: #000000;
+  margin-left: 1.5rem;
+}
+.foodcard .time-eat {
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.foodcard .time-eat p {
+  color: rgba(0, 0, 0, 0.6);
+  font: 400 1rem 'Padauk', sans-serif;
+}
+.foodcard .time-eat em {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+
+.foodcard button {
+  gap: 0.4rem;
+  align-items: center;
+  display: flex;
+  border: none;
+
+  background: none;
+}
+
+/*SECTION 3*/
+
+.section3 {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 14rem;
+  justify-content: center;
+}
+
+.section3 img {
+  width: 100%;
+  height: 37rem;
+}
+
+.section3 h1 {
+  width: 33rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.section3 p {
+  margin-top: 1.5rem;
+  width: 33rem;
+  font: 400 1rem 'Padauk', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btnLearn {
+  margin-top: 4.5rem;
+  width: 11.25rem;
+  height: 3.75rem;
+  border: none;
+  color: white;
+  background: #000000;
+  border-radius: 1rem;
+}
+
+/*POST ON INSTAGRAM*/
+
+.section4 {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+.infoInsta {
+  display: flex;
+
+  text-align: center;
+  flex-direction: column;
+}
+.posts {
+  margin-top: 3.75rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.infoInsta h1 {
+  font: 600 3rem 'Padauk', sans-serif;
+
+  line-height: 58px;
+  letter-spacing: -0.04em;
+}
+.post {
+  width: 24rem;
+  height: 35rem;
+  border-radius: 0.6rem;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.3));
+  background: white;
+}
+.post .imgs img {
+  margin-top: 3rem;
+  width: 384px;
+  height: 290px;
+}
+
+.logo {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+}
+.infoPerfil {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin-left: 0.4rem;
+}
+.logo p {
+  font: 400 0.7rem 'SF Pro Text', sans-serif;
+  margin-left: 0.4rem;
+  line-height: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.0541333px;
+
+  color: #262626;
+}
+.lmcs img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.lCM {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.lmcs {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.comentaris {
+  margin-top: 1rem;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.comentaris img {
+  margin-left: 0.6rem;
+  width: 2rem;
+  clip-path: circle();
+}
+ span {
+  font: 600 1rem 'Padauk';
+}
+
+.descri{
+  margin-top: 1rem;
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn em{
+  font-size: 1.2rem;
+}
+
+.visitInta{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.5rem;
+  width: 11.25rem;
+  height: 3.75rem;
+  border: none;
+  color: white;
+  background: #000000;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+
+/*SECTION 5*/
+
+.infRecif{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infRecif h1{
+  font: 600 3rem 'Padauk', sans-serif;
+
+  line-height: 58px;
+  letter-spacing: -0.04em;
 }
